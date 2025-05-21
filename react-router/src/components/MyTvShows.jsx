@@ -15,7 +15,7 @@ function MyTvShows({ onMovieSelect, title, iconClass, titleTrending }) {
     const fetchMovies = async () => {
       try {
         const resp = await fetch(
-          "https://www.omdbapi.com/?s=horror&full&apikey=a2ca179f"
+          "https://www.omdbapi.com/?s=berserk&full&apikey=a2ca179f"
         );
 
         if (resp.ok) {
